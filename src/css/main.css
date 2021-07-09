@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+
+img {
+  max-width: 100%; }
+
+.button {
+  font-size: 14px;
+  background-color: #fd9c28;
+  color: #ffffff;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 5px; }
+  .button:hover {
+    background-color: #fda841;
+    cursor: pointer; }
+  .button img {
+    vertical-align: middle; }
+
+.header {
+  padding: 15px 0;
+  background-color: #ffffff; }
+  .header-contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .header-contacts__phone {
+      font-size: 22px;
+      margin-right: 13px; }

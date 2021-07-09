@@ -1,0 +1,74 @@
+.section
+  &-title
+    font-size: 27px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 29px
+    &::after
+      content: ''
+      display: block
+      height: 6px
+      background: url(../img/line-title.png) center no-repeat
+      margin-top: 12px
+
+.button
+  font-size: 14px
+  background-color: $active-color
+  color: $text-color-light
+  border: 1px solid transparent
+  padding: 13px 22px
+  border-radius: 5px
+  &:hover
+    background-color: lighten($active-color, 5)
+    cursor: pointer
+  &-o
+    background-color: transparent
+    color: $text-color-dark
+    border: 1px solid rgba(#373737, 0.5)
+    &:hover
+      background-color: lighten($active-color, 5)
+      color: $text-color-dark
+      border: 1px solid transparent
+      cursor: pointer
+  img
+    vertical-align: middle
+    //max-width: 100%
+  &-big
+    padding-top: 20px
+    padding-bottom: 20px
+    vertical-align: middle
+
+.slider-arrow
+  &:hover
+    cursor: pointer
+  position: absolute
+  top: 0
+  height: 100%
+  width: 22px
+  border: 1px solid $active-color
+  z-index: 99
+  &__right
+    right: 0
+    background: url(../img/arrow-right.png) center no-repeat
+    &:hover
+      background: $active-color url(../img/arrow-right-active.png) center no-repeat
+  &__left
+    left: 0
+    background: url(../img/arrow-left.png) center no-repeat
+    &:hover
+      background: $active-color url(../img/arrow-left-active.png) center no-repeat
+
+.dark-bg
+  position: relative
+  z-index: 2
+  &::before
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.6)
+    z-index: -1

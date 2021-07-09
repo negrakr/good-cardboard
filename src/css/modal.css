@@ -1,0 +1,73 @@
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 100px;
+  width: 752px;
+  transform: translateX(-50%); }
+  .popup-close {
+    position: absolute;
+    right: -20px;
+    top: -30px;
+    font-size: 35px;
+    font-weight: 300;
+    color: #ffffff;
+    cursor: pointer; }
+  .popup-title {
+    display: block;
+    width: 100%;
+    min-height: 71px;
+    margin: 0;
+    background-color: #ff9d00;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 71px;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center; }
+  .popup-form {
+    background: url(../img/modal/modal-bg.jpg) center no-repeat;
+    background-size: cover;
+    padding: 35px 88px 50px 88px;
+    color: #ffffff; }
+    .popup-form__header {
+      padding: 0;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: center; }
+      .popup-form__header span {
+        font-size: 24px; }
+    .popup-form__label {
+      display: block;
+      margin-top: 23px;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+      text-align: center; }
+    .popup-form__input {
+      width: 365px;
+      height: 56px;
+      margin-top: 17px; }
+    .popup-form__btn {
+      width: 180px;
+      height: 56px;
+      margin-left: 16px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+      background-color: #ff9d00; }
+    .popup-form__note {
+      margin-top: 9px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 30px;
+      text-align: center; }

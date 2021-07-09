@@ -1,0 +1,13 @@
+.header {
+  padding: 15px 0;
+  background-color: #ffffff;
+}
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-contacts__phone {
+  font-size: 22px;
+  margin-right: 13px;
+}
